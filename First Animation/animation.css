@@ -1,0 +1,29 @@
+/* Copy this @keyframes block to your CSS*/
+@keyframes yourAnimation {
+    0.0%{
+        transform: rotate(0deg);
+    }
+    10.4%{
+        transform: rotate(-22deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    49.5%{
+        transform: rotate(180deg);
+    }
+}
+
+.object {
+    padding-left: 40%;
+    padding-top: 15%;
+}
+
+
+/* Add the animation: property to whichever element you want to animate */
+img{
+    animation: yourAnimation 1s linear 0s infinite normal none;
+}
