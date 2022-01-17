@@ -27,3 +27,7 @@
 img{
     animation: yourAnimation 1s linear 0s infinite normal none;
 }
+
+body {
+    background-color: black;
+}
